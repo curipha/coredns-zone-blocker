@@ -1,0 +1,16 @@
+. {
+  loop
+  any
+
+  cache 300
+  errors
+
+  template ANY ANY google-analytics.com { rcode NXDOMAIN }
+  template ANY ANY googlesyndication.com { rcode NXDOMAIN }
+
+  forward . tls://1.1.1.1 tls://1.0.0.1 {
+    policy random
+    tls_servername cloudflare-dns.com
+    health_check 30s
+  }
+}

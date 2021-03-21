@@ -1,0 +1,15 @@
+version: '3.0'
+
+services:
+  coredns:
+    image: coredns/coredns:latest
+    container_name: coredns
+    restart: unless-stopped
+    expose:
+      - '53/tcp'
+      - '53/udp'
+    ports:
+      - '53:53/tcp'
+      - '53:53/udp'
+    volumes:
+      - ./Corefile:/Corefile:ro
