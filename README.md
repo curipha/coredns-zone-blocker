@@ -10,6 +10,7 @@ Concepts
 * Use official docker image for security and reliability
 * No third party dependencies
 * Introduce zone-based blocking instead of host-based to block all sub-domains
+* No access control feature (it should be handled by firewall)
 
 Motivation
 ------------------------------------------
