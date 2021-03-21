@@ -51,6 +51,40 @@ I really appreciate the great efforts of the block list authors.
 $ while read -r l; do echo "template ANY ANY ${l} { rcode NXDOMAIN }"; done < adhosts.txt > hosts_for_Corefile.txt
 ```
 
+Avoid conflicts with systemd-resolved
+------------------------------------------
+systemd-resolved provides DNS stub listener on port 53 by default.
+It will cause conflicts with this DNS server.
+
+It requires 2 steps to disable DNS stub listener.
+
+### 1. Update `/etc/resolv.conf`
+```bash
+$ sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
+`/etc/resolv.conf` lists `127.0.0.53` as the only DNS server by default.
+It is systemd-resolved's DNS stub resolver and it have to be shutdown.
+
+systemd-resolved also maintains `/run/systemd/resolve/resolv.conf` and it contains all known upstream DNS servers.
+Thus it is good to create a symlink to this file.
+
+For more details, have a look at [the manual of systemd-resolved](https://www.freedesktop.org/software/systemd/man/systemd-resolved.service.html#/etc/resolv.conf).
+
+### 2. Stop DNS stub listener provided by systemd-resolved
+```bash
+$ sudo -e /etc/systemd/resolved.conf
+$ sudo systemctl restart systemd-resolved.service
+```
+
+Edit `/etc/systemd/resolved.conf` and add this line:
+
+```
+DNSStubListener=no
+```
+
+Remember to restart systemd-resolved to take the setting in effect.
+
 License
 ------------------------------------------
 The Unlicense except block lists.
