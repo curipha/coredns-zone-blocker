@@ -21,7 +21,10 @@ Usage
 ### Prepare Docker (for the first time only)
 ```bash
 $ sudo apt-get install docker.io docker-compose
+$ sudo usermod -aG docker ${USER}
 ```
+
+It must be logoff in order for the settings to take effect.
 
 ### Run DNS server
 ```bash
