@@ -77,7 +77,8 @@ $ sudo -e /etc/systemd/resolved.conf
 $ sudo systemctl restart systemd-resolved.service
 ```
 
-Edit `/etc/systemd/resolved.conf` and add this line:
+Edit `/etc/systemd/resolved.conf` and add this line.
+[Manual](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSStubListener=) may help.
 
 ```
 DNSStubListener=no
