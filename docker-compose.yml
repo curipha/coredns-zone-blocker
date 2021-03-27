@@ -3,7 +3,7 @@ version: '3.0'
 services:
   coredns:
     image: coredns/coredns:latest
-    container_name: coredns
+    container_name: coredns-zone-blocker
     restart: unless-stopped
     expose:
       - '53/tcp'
