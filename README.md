@@ -93,3 +93,9 @@ License
 ------------------------------------------
 The Unlicense except block lists.
 
+Authors' efforts to provide up-to-date Ad blocking filter list is greatly appreciated.
+Currently `Corefile` in this repository includes the hosts based on these lists:
+
+* [280blocker](https://280blocker.net/)
+* [Disconnect](https://disconnect.me/)
+* [Peter Lowe's ad server and tracking server hostnames](https://pgl.yoyo.org/adservers/)
