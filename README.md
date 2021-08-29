@@ -16,10 +16,10 @@ Motivation
 ------------------------------------------
 * Provide ad blocking and tracing protection feature for mobile devices
 
-Usage (for users to run `docker-compose`)
+Usage for the users to run `docker-compose`
 ------------------------------------------
 * Simple and easy to use
-* Use official docker image for security and reliability
+* Use official coredns docker image for security and reliability
 
 ### Run the server
 
@@ -41,9 +41,10 @@ $ docker-compose up -d
 $ docker-compose down
 ```
 
-### Edit blocklist
-Simply append the line to `Corefile` and restart the DNS Server.
+### Update blocklist
+Simply edit `Corefile` and restart the DNS Server.
 
+For example, add this line to block `domain.to.block.example.com` and its all subdomains like `sub.domain.to.block.example.com`.
 ```
 template ANY ANY domain.to.block.example.com { rcode NXDOMAIN }
 ```
@@ -58,7 +59,7 @@ I really appreciate the great efforts of the block list authors.
 $ while read -r l; do echo "template ANY ANY ${l} { rcode NXDOMAIN }"; done < adhosts.txt > hosts_for_Corefile.txt
 ```
 
-Usage (for users to run just `docker`)
+Usage for the users to run just `docker`
 ------------------------------------------
 ### Build image
 ```bash
