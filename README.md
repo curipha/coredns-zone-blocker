@@ -68,7 +68,7 @@ $ DOCKER_BUILDKIT=1 docker build -t coredns-zone-blocker .
 
 ### Run server
 ```bash
-$ docker run -p53:53/tcp -p53:53/udp coredns-zone-blocker
+$ docker run -p53:53/tcp -p53:53/udp --restart unless-stopped coredns-zone-blocker
 ```
 
 Avoid conflicts with systemd-resolved
