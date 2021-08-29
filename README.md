@@ -20,7 +20,7 @@ Usage
 ------------------------------------------
 ### Prepare Docker (for the first time only)
 ```bash
-$ sudo apt-get install docker.io docker-compose
+$ sudo apt install docker.io docker-compose
 $ sudo usermod -aG docker ${USER}
 ```
 
