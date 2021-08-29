@@ -37,6 +37,7 @@
   template ANY ANY 4affiliate.net { rcode NXDOMAIN }
   template ANY ANY 4clvr.jp { rcode NXDOMAIN }
   template ANY ANY 4d5.net { rcode NXDOMAIN }
+  template ANY ANY 4dex.io { rcode NXDOMAIN }
   template ANY ANY 4dsply.com { rcode NXDOMAIN }
   template ANY ANY 4info.com { rcode NXDOMAIN }
   template ANY ANY 4jnzhl0d0.com { rcode NXDOMAIN }
@@ -70,6 +71,7 @@
   template ANY ANY a.consumer.net { rcode NXDOMAIN }
   template ANY ANY a.cookpad-ads.com { rcode NXDOMAIN }
   template ANY ANY a.exdynsrv.com { rcode NXDOMAIN }
+  template ANY ANY a.klaviyo.com { rcode NXDOMAIN }
   template ANY ANY a.mktw.net { rcode NXDOMAIN }
   template ANY ANY a.muloqot.uz { rcode NXDOMAIN }
   template ANY ANY a.sakh.com { rcode NXDOMAIN }
@@ -102,6 +104,7 @@
   template ANY ANY abandonedaction.com { rcode NXDOMAIN }
   template ANY ANY abc-ads.com { rcode NXDOMAIN }
   template ANY ANY abema-adx.ameba.jp { rcode NXDOMAIN }
+  template ANY ANY ablink.comms.trainline.com { rcode NXDOMAIN }
   template ANY ANY aboardlevel.com { rcode NXDOMAIN }
   template ANY ANY aboutads.gr { rcode NXDOMAIN }
   template ANY ANY abruptroad.com { rcode NXDOMAIN }
@@ -473,6 +476,7 @@
   template ANY ANY adjust-net.jp { rcode NXDOMAIN }
   template ANY ANY adjust-sp.jp { rcode NXDOMAIN }
   template ANY ANY adjust.com { rcode NXDOMAIN }
+  template ANY ANY adjust.io { rcode NXDOMAIN }
   template ANY ANY adjustnetwork.com { rcode NXDOMAIN }
   template ANY ANY adk2.co { rcode NXDOMAIN }
   template ANY ANY adk2.com { rcode NXDOMAIN }
@@ -578,6 +582,7 @@
   template ANY ANY adprofits.ru { rcode NXDOMAIN }
   template ANY ANY adprojekt.pl { rcode NXDOMAIN }
   template ANY ANY adprovider.maru.jp { rcode NXDOMAIN }
+  template ANY ANY adpushup.com { rcode NXDOMAIN }
   template ANY ANY adq.nextag.com { rcode NXDOMAIN }
   template ANY ANY adrazzi.com { rcode NXDOMAIN }
   template ANY ANY adrcf.com { rcode NXDOMAIN }
@@ -723,7 +728,6 @@
   template ANY ANY ads.discovery.com { rcode NXDOMAIN }
   template ANY ANY ads.doit.com.cn { rcode NXDOMAIN }
   template ANY ANY ads.doko.jp { rcode NXDOMAIN }
-  template ANY ANY ads.domain.com { rcode NXDOMAIN }
   template ANY ANY ads.domeus.com { rcode NXDOMAIN }
   template ANY ANY ads.dtpnetwork.biz { rcode NXDOMAIN }
   template ANY ANY ads.eagletribune.com { rcode NXDOMAIN }
@@ -809,6 +813,7 @@
   template ANY ANY ads.hollywood.com { rcode NXDOMAIN }
   template ANY ANY ads.horsehero.com { rcode NXDOMAIN }
   template ANY ANY ads.horyzon-media.com { rcode NXDOMAIN }
+  template ANY ANY ads.hsoub.com { rcode NXDOMAIN }
   template ANY ANY ads.iafrica.com { rcode NXDOMAIN }
   template ANY ANY ads.ibest.com.br { rcode NXDOMAIN }
   template ANY ANY ads.ibryte.com { rcode NXDOMAIN }
@@ -840,7 +845,6 @@
   template ANY ANY ads.kompass.com { rcode NXDOMAIN }
   template ANY ANY ads.krawall.de { rcode NXDOMAIN }
   template ANY ANY ads.lapalingo.com { rcode NXDOMAIN }
-  template ANY ANY ads.larryaffiliates.com { rcode NXDOMAIN }
   template ANY ANY ads.leovegas.com { rcode NXDOMAIN }
   template ANY ANY ads.lesbianpersonals.com { rcode NXDOMAIN }
   template ANY ANY ads.liberte.pl { rcode NXDOMAIN }
@@ -917,6 +921,7 @@
   template ANY ANY ads.oxyshop.cz { rcode NXDOMAIN }
   template ANY ANY ads.p161.net { rcode NXDOMAIN }
   template ANY ANY ads.passion.com { rcode NXDOMAIN }
+  template ANY ANY ads.paymonex.net { rcode NXDOMAIN }
   template ANY ANY ads.pennet.com { rcode NXDOMAIN }
   template ANY ANY ads.penny-arcade.com { rcode NXDOMAIN }
   template ANY ANY ads.pexi.nl { rcode NXDOMAIN }
@@ -1079,6 +1084,7 @@
   template ANY ANY ads2.clearchannel.com { rcode NXDOMAIN }
   template ANY ANY ads2.femmefab.nl { rcode NXDOMAIN }
   template ANY ANY ads2.gamecity.net { rcode NXDOMAIN }
+  template ANY ANY ads2.hsoub.com { rcode NXDOMAIN }
   template ANY ANY ads2.jubii.dk { rcode NXDOMAIN }
   template ANY ANY ads2.net-communities.co.uk { rcode NXDOMAIN }
   template ANY ANY ads2.oneplace.com { rcode NXDOMAIN }
@@ -1161,6 +1167,8 @@
   template ANY ANY adserver.freecity.de { rcode NXDOMAIN }
   template ANY ANY adserver.freenet.de { rcode NXDOMAIN }
   template ANY ANY adserver.friendfinder.com { rcode NXDOMAIN }
+  template ANY ANY adserver.generationiron.com { rcode NXDOMAIN }
+  template ANY ANY adserver.gilligan.tech { rcode NXDOMAIN }
   template ANY ANY adserver.hardsextube.com { rcode NXDOMAIN }
   template ANY ANY adserver.hardwareanalysis.com { rcode NXDOMAIN }
   template ANY ANY adserver.html.it { rcode NXDOMAIN }
@@ -1195,10 +1203,12 @@
   template ANY ANY adserver.sciflicks.com { rcode NXDOMAIN }
   template ANY ANY adserver.scr.sk { rcode NXDOMAIN }
   template ANY ANY adserver.sharewareonline.com { rcode NXDOMAIN }
+  template ANY ANY adserver.smgfiles.com { rcode NXDOMAIN }
   template ANY ANY adserver.spankaway.com { rcode NXDOMAIN }
   template ANY ANY adserver.startnow.com { rcode NXDOMAIN }
   template ANY ANY adserver.theonering.net { rcode NXDOMAIN }
   template ANY ANY adserver.trojaner-info.de { rcode NXDOMAIN }
+  template ANY ANY adserver.tupolska.com { rcode NXDOMAIN }
   template ANY ANY adserver.twitpic.com { rcode NXDOMAIN }
   template ANY ANY adserver.viagogo.com { rcode NXDOMAIN }
   template ANY ANY adserver.virginmedia.com { rcode NXDOMAIN }
@@ -1260,9 +1270,9 @@
   template ANY ANY adsrv.iol.co.za { rcode NXDOMAIN }
   template ANY ANY adsrv.kobi.tv { rcode NXDOMAIN }
   template ANY ANY adsrv.moebelmarkt.tv { rcode NXDOMAIN }
-  template ANY ANY adsrv.swidnica24.pl { rcode NXDOMAIN }
   template ANY ANY adsrv2.swidnica24.pl { rcode NXDOMAIN }
   template ANY ANY adsrvr.org { rcode NXDOMAIN }
+  template ANY ANY adsrvus.com { rcode NXDOMAIN }
   template ANY ANY adsstat.com { rcode NXDOMAIN }
   template ANY ANY adstacks.in { rcode NXDOMAIN }
   template ANY ANY adstage.io { rcode NXDOMAIN }
@@ -1468,7 +1478,6 @@
   template ANY ANY alchemist.go2cloud.org { rcode NXDOMAIN }
   template ANY ANY alclick.com { rcode NXDOMAIN }
   template ANY ANY alenty.com { rcode NXDOMAIN }
-  template ANY ANY alert.com.mt { rcode NXDOMAIN }
   template ANY ANY alertafterthought.com { rcode NXDOMAIN }
   template ANY ANY alexa-sitestats.s3.amazonaws.com { rcode NXDOMAIN }
   template ANY ANY alexametrics.com { rcode NXDOMAIN }
@@ -1553,12 +1562,14 @@
   template ANY ANY anm.intelli-direct.com { rcode NXDOMAIN }
   template ANY ANY annonser.dagbladet.no { rcode NXDOMAIN }
   template ANY ANY annoyedairport.com { rcode NXDOMAIN }
+  template ANY ANY annoyingacoustics.com { rcode NXDOMAIN }
   template ANY ANY anonymousdemographics.com { rcode NXDOMAIN }
   template ANY ANY anrdoezrs.net { rcode NXDOMAIN }
   template ANY ANY anstrex.com { rcode NXDOMAIN }
   template ANY ANY antennash.com { rcode NXDOMAIN }
   template ANY ANY anuncios.edicaoms.com.br { rcode NXDOMAIN }
   template ANY ANY anxiousapples.com { rcode NXDOMAIN }
+  template ANY ANY anymind360.com { rcode NXDOMAIN }
   template ANY ANY aoredi.com { rcode NXDOMAIN }
   template ANY ANY aos-creative.prf.hn { rcode NXDOMAIN }
   template ANY ANY aoyou.idealads.net { rcode NXDOMAIN }
@@ -1577,6 +1588,7 @@
   template ANY ANY api.primecaster.net { rcode NXDOMAIN }
   template ANY ANY api.relaido.jp { rcode NXDOMAIN }
   template ANY ANY api.repro.io { rcode NXDOMAIN }
+  template ANY ANY api.rudderlabs.com { rcode NXDOMAIN }
   template ANY ANY api.saypromo.net { rcode NXDOMAIN }
   template ANY ANY api.uca.cloud.unity3d.com { rcode NXDOMAIN }
   template ANY ANY api.webpush.jp { rcode NXDOMAIN }
@@ -1698,6 +1710,7 @@
   template ANY ANY axia-hakusan.com { rcode NXDOMAIN }
   template ANY ANY axiomaticalley.com { rcode NXDOMAIN }
   template ANY ANY axonix.com { rcode NXDOMAIN }
+  template ANY ANY ay.delivery { rcode NXDOMAIN }
   template ANY ANY aylarl.com { rcode NXDOMAIN }
   template ANY ANY azfront.com { rcode NXDOMAIN }
   template ANY ANY aztracking.net { rcode NXDOMAIN }
@@ -1737,6 +1750,7 @@
   template ANY ANY banner.goldenpalace.com { rcode NXDOMAIN }
   template ANY ANY banner.icmedia.eu { rcode NXDOMAIN }
   template ANY ANY banner.img.co.za { rcode NXDOMAIN }
+  template ANY ANY banner.interich.com { rcode NXDOMAIN }
   template ANY ANY banner.inyourpocket.com { rcode NXDOMAIN }
   template ANY ANY banner.jobsahead.com { rcode NXDOMAIN }
   template ANY ANY banner.joylandcasino.com { rcode NXDOMAIN }
@@ -1794,7 +1808,6 @@
   template ANY ANY banners.freett.com { rcode NXDOMAIN }
   template ANY ANY banners.friendfinder.com { rcode NXDOMAIN }
   template ANY ANY banners.getiton.com { rcode NXDOMAIN }
-  template ANY ANY banners.golfasian.com { rcode NXDOMAIN }
   template ANY ANY banners.iq.pl { rcode NXDOMAIN }
   template ANY ANY banners.isoftmarketing.com { rcode NXDOMAIN }
   template ANY ANY banners.lifeserv.com { rcode NXDOMAIN }
@@ -1846,6 +1859,7 @@
   template ANY ANY behavioralengine.com { rcode NXDOMAIN }
   template ANY ANY belstat.com { rcode NXDOMAIN }
   template ANY ANY belstat.nl { rcode NXDOMAIN }
+  template ANY ANY benfly.net { rcode NXDOMAIN }
   template ANY ANY berp.com { rcode NXDOMAIN }
   template ANY ANY best-pr.info { rcode NXDOMAIN }
   template ANY ANY best-top.ro { rcode NXDOMAIN }
@@ -2113,6 +2127,7 @@
   template ANY ANY clfvfumqqok.com { rcode NXDOMAIN }
   template ANY ANY click-plus.net { rcode NXDOMAIN }
   template ANY ANY click.absoluteagency.com { rcode NXDOMAIN }
+  template ANY ANY click.airmalta-mail.com { rcode NXDOMAIN }
   template ANY ANY click.cartsguru.io { rcode NXDOMAIN }
   template ANY ANY click.duga.jp { rcode NXDOMAIN }
   template ANY ANY click.email.bbc.com { rcode NXDOMAIN }
@@ -2165,6 +2180,7 @@
   template ANY ANY clickzxc.com { rcode NXDOMAIN }
   template ANY ANY clicmanager.fr { rcode NXDOMAIN }
   template ANY ANY client.contents-search-windows.com { rcode NXDOMAIN }
+  template ANY ANY clientgear.com { rcode NXDOMAIN }
   template ANY ANY clientmetrics-pa.googleapis.com { rcode NXDOMAIN }
   template ANY ANY clients.tbo.com { rcode NXDOMAIN }
   template ANY ANY clikerz.net { rcode NXDOMAIN }
@@ -2180,6 +2196,7 @@
   template ANY ANY clktrx.com { rcode NXDOMAIN }
   template ANY ANY cloisteredhydrant.com { rcode NXDOMAIN }
   template ANY ANY cloudcoins.biz { rcode NXDOMAIN }
+  template ANY ANY cloudflareinsights.com { rcode NXDOMAIN }
   template ANY ANY cloudmobi.net { rcode NXDOMAIN }
   template ANY ANY clrstm.com { rcode NXDOMAIN }
   template ANY ANY cls.vrvm.com { rcode NXDOMAIN }
@@ -2203,7 +2220,6 @@
   template ANY ANY codeadnetwork.com { rcode NXDOMAIN }
   template ANY ANY cogleapad.com { rcode NXDOMAIN }
   template ANY ANY cognitiv.ai { rcode NXDOMAIN }
-  template ANY ANY cognitiveadscience.com { rcode NXDOMAIN }
   template ANY ANY coin-have.com { rcode NXDOMAIN }
   template ANY ANY coin-hive.com { rcode NXDOMAIN }
   template ANY ANY coinblind.com { rcode NXDOMAIN }
@@ -2215,6 +2231,8 @@
   template ANY ANY cointraffic.io { rcode NXDOMAIN }
   template ANY ANY collect11442ldybg.deltadna.net { rcode NXDOMAIN }
   template ANY ANY collect16785svthg.deltadna.net { rcode NXDOMAIN }
+  template ANY ANY collector-dev.cdp-dev.cnn.com { rcode NXDOMAIN }
+  template ANY ANY collector.cdp.cnn.com { rcode NXDOMAIN }
   template ANY ANY colonize.com { rcode NXDOMAIN }
   template ANY ANY comboapp.com { rcode NXDOMAIN }
   template ANY ANY comclick.com { rcode NXDOMAIN }
@@ -2237,6 +2255,7 @@
   template ANY ANY connectad.io { rcode NXDOMAIN }
   template ANY ANY connextra.com { rcode NXDOMAIN }
   template ANY ANY consciouschairs.com { rcode NXDOMAIN }
+  template ANY ANY consciouscheese.com { rcode NXDOMAIN }
   template ANY ANY consensad.com { rcode NXDOMAIN }
   template ANY ANY consensu.org { rcode NXDOMAIN }
   template ANY ANY contaxe.de { rcode NXDOMAIN }
@@ -2307,6 +2326,7 @@
   template ANY ANY craktraffic.com { rcode NXDOMAIN }
   template ANY ANY crashlytics.com { rcode NXDOMAIN }
   template ANY ANY crashlyticsreports-pa.googleapis.com { rcode NXDOMAIN }
+  template ANY ANY cratecamera.com { rcode NXDOMAIN }
   template ANY ANY craveandlamb.com { rcode NXDOMAIN }
   template ANY ANY crawlability.com { rcode NXDOMAIN }
   template ANY ANY crawlclocks.com { rcode NXDOMAIN }
@@ -2339,6 +2359,7 @@
   template ANY ANY crwdcntrl.net { rcode NXDOMAIN }
   template ANY ANY crypto-loot.com { rcode NXDOMAIN }
   template ANY ANY crypto-loot.org { rcode NXDOMAIN }
+  template ANY ANY cs.nakanohito.jp { rcode NXDOMAIN }
   template ANY ANY cs.r-ad.ne.jp { rcode NXDOMAIN }
   template ANY ANY csi.gstatic.com { rcode NXDOMAIN }
   template ANY ANY cstwpush.com { rcode NXDOMAIN }
@@ -2353,6 +2374,7 @@
   template ANY ANY custom.plausible.io { rcode NXDOMAIN }
   template ANY ANY customad.cnn.com { rcode NXDOMAIN }
   template ANY ANY customers.kameleoon.com { rcode NXDOMAIN }
+  template ANY ANY cutechin.com { rcode NXDOMAIN }
   template ANY ANY cutecushion.com { rcode NXDOMAIN }
   template ANY ANY cuteturkey.com { rcode NXDOMAIN }
   template ANY ANY cxense.com { rcode NXDOMAIN }
@@ -2365,6 +2387,7 @@
   template ANY ANY d.somewrite.jp { rcode NXDOMAIN }
   template ANY ANY d141wsrw9m4as6.cloudfront.net { rcode NXDOMAIN }
   template ANY ANY d18g6t7whf8ejf.cloudfront.net { rcode NXDOMAIN }
+  template ANY ANY d1ev866ubw90c6.cloudfront.net { rcode NXDOMAIN }
   template ANY ANY d1miuq6afqay8u.cloudfront.net { rcode NXDOMAIN }
   template ANY ANY d1z2jf7jlzjs58.cloudfront.net { rcode NXDOMAIN }
   template ANY ANY d28nwox1gdjlve.cloudfront.net { rcode NXDOMAIN }
@@ -2377,10 +2400,12 @@
   template ANY ANY dacdn.visualwebsiteoptimizer.com { rcode NXDOMAIN }
   template ANY ANY dacdn.vwo.com { rcode NXDOMAIN }
   template ANY ANY dakic-ia-300.com { rcode NXDOMAIN }
+  template ANY ANY damageddistance.com { rcode NXDOMAIN }
   template ANY ANY damdoor.com { rcode NXDOMAIN }
   template ANY ANY danban.com { rcode NXDOMAIN }
   template ANY ANY dancemistake.com { rcode NXDOMAIN }
   template ANY ANY dapper.net { rcode NXDOMAIN }
+  template ANY ANY dapperfloor.com { rcode NXDOMAIN }
   template ANY ANY dashbida.com { rcode NXDOMAIN }
   template ANY ANY dashingdirt.com { rcode NXDOMAIN }
   template ANY ANY dashingsweater.com { rcode NXDOMAIN }
@@ -2456,6 +2481,7 @@
   template ANY ANY dlp4luwpus5kr.cloudfront.net { rcode NXDOMAIN }
   template ANY ANY dlv.itmedia.jp { rcode NXDOMAIN }
   template ANY ANY dm.bytedance.com { rcode NXDOMAIN }
+  template ANY ANY dmmzkfd82wayn.cloudfront.net { rcode NXDOMAIN }
   template ANY ANY dmp.mall.tv { rcode NXDOMAIN }
   template ANY ANY dmtracker.com { rcode NXDOMAIN }
   template ANY ANY dmtracking.alibaba.com { rcode NXDOMAIN }
@@ -2502,7 +2528,6 @@
   template ANY ANY dsp.io { rcode NXDOMAIN }
   template ANY ANY dstillery.com { rcode NXDOMAIN }
   template ANY ANY dtscout.com { rcode NXDOMAIN }
-  template ANY ANY duckdns.org { rcode NXDOMAIN }
   template ANY ANY dynalyst.jp { rcode NXDOMAIN }
   template ANY ANY dynamic.fmpub.net { rcode NXDOMAIN }
   template ANY ANY dyntrk.com { rcode NXDOMAIN }
@@ -2550,6 +2575,7 @@
   template ANY ANY elitedollars.com { rcode NXDOMAIN }
   template ANY ANY elitetoplist.com { rcode NXDOMAIN }
   template ANY ANY elthamely.com { rcode NXDOMAIN }
+  template ANY ANY em1.yoursantander.co.uk { rcode NXDOMAIN }
   template ANY ANY emailretargeting.com { rcode NXDOMAIN }
   template ANY ANY emarketer.com { rcode NXDOMAIN }
   template ANY ANY emebo.com { rcode NXDOMAIN }
@@ -2569,6 +2595,8 @@
   template ANY ANY endurableshop.com { rcode NXDOMAIN }
   template ANY ANY energeticladybug.com { rcode NXDOMAIN }
   template ANY ANY engage.dnsfilter.com { rcode NXDOMAIN }
+  template ANY ANY engage.webshrinker.com { rcode NXDOMAIN }
+  template ANY ANY engage.windows.com { rcode NXDOMAIN }
   template ANY ANY engagebdr.com { rcode NXDOMAIN }
   template ANY ANY engine.awaps.net { rcode NXDOMAIN }
   template ANY ANY engine.espace.netavenir.com { rcode NXDOMAIN }
@@ -2614,6 +2642,8 @@
   template ANY ANY evadav.com { rcode NXDOMAIN }
   template ANY ANY evadavdsp.pro { rcode NXDOMAIN }
   template ANY ANY events-api.outfit7.com { rcode NXDOMAIN }
+  template ANY ANY events-eu.freshsuccess.com { rcode NXDOMAIN }
+  template ANY ANY events-us.freshsuccess.com { rcode NXDOMAIN }
   template ANY ANY everestads.net { rcode NXDOMAIN }
   template ANY ANY everesttech.net { rcode NXDOMAIN }
   template ANY ANY evergage.com { rcode NXDOMAIN }
@@ -2653,6 +2683,7 @@
   template ANY ANY eyereturn.com { rcode NXDOMAIN }
   template ANY ANY eyeviewads.com { rcode NXDOMAIN }
   template ANY ANY eyewonder.com { rcode NXDOMAIN }
+  template ANY ANY ezoic.net { rcode NXDOMAIN }
   template ANY ANY eztexting.com { rcode NXDOMAIN }
   template ANY ANY ezula.com { rcode NXDOMAIN }
   template ANY ANY f5biz.com { rcode NXDOMAIN }
@@ -2678,7 +2709,6 @@
   template ANY ANY fastclick.com { rcode NXDOMAIN }
   template ANY ANY fastclick.com.edgesuite.net { rcode NXDOMAIN }
   template ANY ANY fastclick.net { rcode NXDOMAIN }
-  template ANY ANY fastgetsoftware.com { rcode NXDOMAIN }
   template ANY ANY fastly-insights.com { rcode NXDOMAIN }
   template ANY ANY faultycanvas.com { rcode NXDOMAIN }
   template ANY ANY faultyfowl.com { rcode NXDOMAIN }
@@ -2719,6 +2749,7 @@
   template ANY ANY flowgo.com { rcode NXDOMAIN }
   template ANY ANY fluct.jp { rcode NXDOMAIN }
   template ANY ANY flurry.com { rcode NXDOMAIN }
+  template ANY ANY flux-cdn.com { rcode NXDOMAIN }
   template ANY ANY fly-analytics.com { rcode NXDOMAIN }
   template ANY ANY focas.jp { rcode NXDOMAIN }
   template ANY ANY fod-cm-ad-v.webcdn.stream.ne.jp { rcode NXDOMAIN }
@@ -2755,7 +2786,6 @@
   template ANY ANY freewebcounter.com { rcode NXDOMAIN }
   template ANY ANY freewheel.com { rcode NXDOMAIN }
   template ANY ANY freewheel.tv { rcode NXDOMAIN }
-  template ANY ANY freshworks.com { rcode NXDOMAIN }
   template ANY ANY frightenedpotato.com { rcode NXDOMAIN }
   template ANY ANY frtyj.com { rcode NXDOMAIN }
   template ANY ANY frtyk.com { rcode NXDOMAIN }
@@ -2791,6 +2821,7 @@
   template ANY ANY gammamaximum.com { rcode NXDOMAIN }
   template ANY ANY garss.tv { rcode NXDOMAIN }
   template ANY ANY gator.com { rcode NXDOMAIN }
+  template ANY ANY gaug.es { rcode NXDOMAIN }
   template ANY ANY gayadnetwork.com { rcode NXDOMAIN }
   template ANY ANY gbanners.hornymatches.com { rcode NXDOMAIN }
   template ANY ANY gdmconvtrck.com { rcode NXDOMAIN }
@@ -3244,8 +3275,6 @@
   template ANY ANY l1.britannica.com { rcode NXDOMAIN }
   template ANY ANY l6b587txj1.com { rcode NXDOMAIN }
   template ANY ANY ladsp.com { rcode NXDOMAIN }
-  template ANY ANY ladsreds.com { rcode NXDOMAIN }
-  template ANY ANY ladsup.com { rcode NXDOMAIN }
   template ANY ANY lakequincy.com { rcode NXDOMAIN }
   template ANY ANY lameletters.com { rcode NXDOMAIN }
   template ANY ANY lamp-shade.net { rcode NXDOMAIN }
@@ -3274,7 +3303,6 @@
   template ANY ANY lean.com { rcode NXDOMAIN }
   template ANY ANY leanoisgo.com { rcode NXDOMAIN }
   template ANY ANY leaplunchroom.com { rcode NXDOMAIN }
-  template ANY ANY leedsads.com { rcode NXDOMAIN }
   template ANY ANY legolas-media.com { rcode NXDOMAIN }
   template ANY ANY lemmatechnologies.com { rcode NXDOMAIN }
   template ANY ANY lettucelimit.com { rcode NXDOMAIN }
@@ -3332,8 +3360,10 @@
   template ANY ANY liveads.jp { rcode NXDOMAIN }
   template ANY ANY liveintent.com { rcode NXDOMAIN }
   template ANY ANY livelog.biz { rcode NXDOMAIN }
+  template ANY ANY livelylaugh.com { rcode NXDOMAIN }
   template ANY ANY livelyoffers.club { rcode NXDOMAIN }
   template ANY ANY liverail.com { rcode NXDOMAIN }
+  template ANY ANY livezombymil.com { rcode NXDOMAIN }
   template ANY ANY lizardslaugh.com { rcode NXDOMAIN }
   template ANY ANY lkqd.com { rcode NXDOMAIN }
   template ANY ANY lmodr.biz { rcode NXDOMAIN }
@@ -3364,7 +3394,6 @@
   template ANY ANY look.djfiln.com { rcode NXDOMAIN }
   template ANY ANY look.ichlnk.com { rcode NXDOMAIN }
   template ANY ANY look.opskln.com { rcode NXDOMAIN }
-  template ANY ANY look.ufinkln.com { rcode NXDOMAIN }
   template ANY ANY loopme.biz { rcode NXDOMAIN }
   template ANY ANY loopme.com { rcode NXDOMAIN }
   template ANY ANY lop.com { rcode NXDOMAIN }
@@ -3407,7 +3436,6 @@
   template ANY ANY mahimeta.com { rcode NXDOMAIN }
   template ANY ANY mail-ads.google.com { rcode NXDOMAIN }
   template ANY ANY maist.jp { rcode NXDOMAIN }
-  template ANY ANY malaysia-online-bank-kasino.com { rcode NXDOMAIN }
   template ANY ANY malware-scan.com { rcode NXDOMAIN }
   template ANY ANY manage.com { rcode NXDOMAIN }
   template ANY ANY manageadv.cblogs.eu { rcode NXDOMAIN }
@@ -3441,7 +3469,6 @@
   template ANY ANY matomo.gals24.ru { rcode NXDOMAIN }
   template ANY ANY matomo.hdweb.ru { rcode NXDOMAIN }
   template ANY ANY matomo.kmkb.ru { rcode NXDOMAIN }
-  template ANY ANY matomo.oka-zakaz.ru { rcode NXDOMAIN }
   template ANY ANY matomo.zwetok.ru { rcode NXDOMAIN }
   template ANY ANY matomy.com { rcode NXDOMAIN }
   template ANY ANY mautic.com { rcode NXDOMAIN }
@@ -3685,7 +3712,6 @@
   template ANY ANY mydas.mobi { rcode NXDOMAIN }
   template ANY ANY mygoodlives.com { rcode NXDOMAIN }
   template ANY ANY mylink-today.com { rcode NXDOMAIN }
-  template ANY ANY mymoneymakingapp.com { rcode NXDOMAIN }
   template ANY ANY mypagerank.net { rcode NXDOMAIN }
   template ANY ANY mypagerank.ru { rcode NXDOMAIN }
   template ANY ANY mypowermall.com { rcode NXDOMAIN }
@@ -3919,7 +3945,6 @@
   template ANY ANY p16.hypstarcdn.com { rcode NXDOMAIN }
   template ANY ANY p2r14.com { rcode NXDOMAIN }
   template ANY ANY padsbrown.com { rcode NXDOMAIN }
-  template ANY ANY padssup.com { rcode NXDOMAIN }
   template ANY ANY pagead-googlehosted.l.google.com { rcode NXDOMAIN }
   template ANY ANY pagead.l.google.com { rcode NXDOMAIN }
   template ANY ANY pagefair.com { rcode NXDOMAIN }
@@ -4018,6 +4043,7 @@
   template ANY ANY placed.com { rcode NXDOMAIN }
   template ANY ANY placeplay.com { rcode NXDOMAIN }
   template ANY ANY planetactive.com { rcode NXDOMAIN }
+  template ANY ANY plausibleio.workers.dev { rcode NXDOMAIN }
   template ANY ANY play.entretenimientolz.com { rcode NXDOMAIN }
   template ANY ANY play4traffic.com { rcode NXDOMAIN }
   template ANY ANY player.daznservices.com { rcode NXDOMAIN }
@@ -4110,7 +4136,6 @@
   template ANY ANY propellerads.com { rcode NXDOMAIN }
   template ANY ANY propellerclick.com { rcode NXDOMAIN }
   template ANY ANY proper.io { rcode NXDOMAIN }
-  template ANY ANY props.id { rcode NXDOMAIN }
   template ANY ANY proranktracker.com { rcode NXDOMAIN }
   template ANY ANY prosper.on-line-casino.ca { rcode NXDOMAIN }
   template ANY ANY prosumsit.com { rcode NXDOMAIN }
@@ -4167,7 +4192,6 @@
   template ANY ANY pymx5.com { rcode NXDOMAIN }
   template ANY ANY q.azcentral.com { rcode NXDOMAIN }
   template ANY ANY q1connect.com { rcode NXDOMAIN }
-  template ANY ANY qcontentdelivery.info { rcode NXDOMAIN }
   template ANY ANY qctop.com { rcode NXDOMAIN }
   template ANY ANY qe8dc4gw.com { rcode NXDOMAIN }
   template ANY ANY qnsr.com { rcode NXDOMAIN }
@@ -4183,6 +4207,7 @@
   template ANY ANY quarterserver.de { rcode NXDOMAIN }
   template ANY ANY questaffiliates.net { rcode NXDOMAIN }
   template ANY ANY quick-downloads.com { rcode NXDOMAIN }
+  template ANY ANY quickkoala.io { rcode NXDOMAIN }
   template ANY ANY quicksandear.com { rcode NXDOMAIN }
   template ANY ANY quietknowledge.com { rcode NXDOMAIN }
   template ANY ANY quigo.com { rcode NXDOMAIN }
@@ -4375,7 +4400,6 @@
   template ANY ANY rtbplatform.net { rcode NXDOMAIN }
   template ANY ANY rtbpop.com { rcode NXDOMAIN }
   template ANY ANY rtbpopd.com { rcode NXDOMAIN }
-  template ANY ANY rtbsbengine.com { rcode NXDOMAIN }
   template ANY ANY rtbtradein.com { rcode NXDOMAIN }
   template ANY ANY rtmark.net { rcode NXDOMAIN }
   template ANY ANY rtpdn11.com { rcode NXDOMAIN }
@@ -4411,6 +4435,7 @@
   template ANY ANY samsungads.com { rcode NXDOMAIN }
   template ANY ANY samuraiclick.com { rcode NXDOMAIN }
   template ANY ANY san-ni-ichi.com { rcode NXDOMAIN }
+  template ANY ANY sanity-dataplane.rudderstack.com { rcode NXDOMAIN }
   template ANY ANY saygames.sfo2.cdn.digitaloceanspaces.com { rcode NXDOMAIN }
   template ANY ANY saypromo.sfo2.cdn.digitaloceanspaces.com { rcode NXDOMAIN }
   template ANY ANY saysidewalk.com { rcode NXDOMAIN }
@@ -4425,6 +4450,7 @@
   template ANY ANY schemouth.com { rcode NXDOMAIN }
   template ANY ANY scientiamobile.com { rcode NXDOMAIN }
   template ANY ANY scintillatingscissors.com { rcode NXDOMAIN }
+  template ANY ANY scintillatingsilver.com { rcode NXDOMAIN }
   template ANY ANY scintillatingspace.com { rcode NXDOMAIN }
   template ANY ANY scoobyads.com { rcode NXDOMAIN }
   template ANY ANY scopelight.com { rcode NXDOMAIN }
@@ -4490,6 +4516,7 @@
   template ANY ANY sextracker.com { rcode NXDOMAIN }
   template ANY ANY sexystat.com { rcode NXDOMAIN }
   template ANY ANY sezwho.com { rcode NXDOMAIN }
+  template ANY ANY shakegoldfish.com { rcode NXDOMAIN }
   template ANY ANY shakesea.com { rcode NXDOMAIN }
   template ANY ANY shakesuggestion.com { rcode NXDOMAIN }
   template ANY ANY shakytaste.com { rcode NXDOMAIN }
@@ -4583,7 +4610,6 @@
   template ANY ANY sms.otair.com { rcode NXDOMAIN }
   template ANY ANY snapads.com { rcode NXDOMAIN }
   template ANY ANY snapgiant.com { rcode NXDOMAIN }
-  template ANY ANY sneakystamp.com { rcode NXDOMAIN }
   template ANY ANY snoobi.com { rcode NXDOMAIN }
   template ANY ANY soafov.ru { rcode NXDOMAIN }
   template ANY ANY socdm.com { rcode NXDOMAIN }
@@ -4609,6 +4635,7 @@
   template ANY ANY spaceleadster.com { rcode NXDOMAIN }
   template ANY ANY spacenine.biz { rcode NXDOMAIN }
   template ANY ANY spannersalesman.com { rcode NXDOMAIN }
+  template ANY ANY sparklingshelf.com { rcode NXDOMAIN }
   template ANY ANY sparkstudios.com { rcode NXDOMAIN }
   template ANY ANY spdeapp.com { rcode NXDOMAIN }
   template ANY ANY specially4u.net { rcode NXDOMAIN }
@@ -4632,6 +4659,7 @@
   template ANY ANY spot-01.atas.io { rcode NXDOMAIN }
   template ANY ANY spot-01.trackingpro.pro { rcode NXDOMAIN }
   template ANY ANY spot.fitness.com { rcode NXDOMAIN }
+  template ANY ANY spotlessstamp.com { rcode NXDOMAIN }
   template ANY ANY spotscenered.info { rcode NXDOMAIN }
   template ANY ANY spotx.tv { rcode NXDOMAIN }
   template ANY ANY spotxchange-a.akamaihd.net { rcode NXDOMAIN }
@@ -4755,6 +4783,7 @@
   template ANY ANY sugarcurtain.com { rcode NXDOMAIN }
   template ANY ANY sugoicounter.com { rcode NXDOMAIN }
   template ANY ANY sulkybutter.com { rcode NXDOMAIN }
+  template ANY ANY sulkycook.com { rcode NXDOMAIN }
   template ANY ANY sumapo.org { rcode NXDOMAIN }
   template ANY ANY summerhamster.com { rcode NXDOMAIN }
   template ANY ANY summerobject.com { rcode NXDOMAIN }
@@ -4853,6 +4882,7 @@
   template ANY ANY teenyvolcano.com { rcode NXDOMAIN }
   template ANY ANY teethfan.com { rcode NXDOMAIN }
   template ANY ANY telaria.com { rcode NXDOMAIN }
+  template ANY ANY telemetrics.klaviyo.com { rcode NXDOMAIN }
   template ANY ANY telemetry.dropbox.com { rcode NXDOMAIN }
   template ANY ANY telemetry.v.dropbox.com { rcode NXDOMAIN }
   template ANY ANY teliad.de { rcode NXDOMAIN }
@@ -4899,6 +4929,7 @@
   template ANY ANY ticketaunt.com { rcode NXDOMAIN }
   template ANY ANY ticklesign.com { rcode NXDOMAIN }
   template ANY ANY ticksel.com { rcode NXDOMAIN }
+  template ANY ANY tics.techdirt.com { rcode NXDOMAIN }
   template ANY ANY tidaltv.com { rcode NXDOMAIN }
   template ANY ANY tidint.pro { rcode NXDOMAIN }
   template ANY ANY tinybar.com { rcode NXDOMAIN }
@@ -4966,15 +4997,14 @@
   template ANY ANY track.game18click.com { rcode NXDOMAIN }
   template ANY ANY track.gawker.com { rcode NXDOMAIN }
   template ANY ANY track.mailerlite.com { rcode NXDOMAIN }
-  template ANY ANY track.nuxues.com { rcode NXDOMAIN }
   template ANY ANY track.richmediaads.com { rcode NXDOMAIN }
   template ANY ANY track.saygames.io { rcode NXDOMAIN }
+  template ANY ANY track.software-codes.com { rcode NXDOMAIN }
   template ANY ANY track.somewrite.jp { rcode NXDOMAIN }
   template ANY ANY track.tenjin.com { rcode NXDOMAIN }
   template ANY ANY track.tenjin.io { rcode NXDOMAIN }
   template ANY ANY track.themaccleanup.info { rcode NXDOMAIN }
   template ANY ANY track.ultravpn.com { rcode NXDOMAIN }
-  template ANY ANY track.undressingpics.work { rcode NXDOMAIN }
   template ANY ANY track.unear.net { rcode NXDOMAIN }
   template ANY ANY track.vcdc.com { rcode NXDOMAIN }
   template ANY ANY track.viewdeos.com { rcode NXDOMAIN }
@@ -5155,6 +5185,7 @@
   template ANY ANY urldata.net { rcode NXDOMAIN }
   template ANY ANY us.a1.yimg.com { rcode NXDOMAIN }
   template ANY ANY usapromotravel.com { rcode NXDOMAIN }
+  template ANY ANY uselnk.com { rcode NXDOMAIN }
   template ANY ANY user.in.net { rcode NXDOMAIN }
   template ANY ANY userdive.com { rcode NXDOMAIN }
   template ANY ANY usergrid.com { rcode NXDOMAIN }
@@ -5231,7 +5262,6 @@
   template ANY ANY vivads.net { rcode NXDOMAIN }
   template ANY ANY vivtracking.com { rcode NXDOMAIN }
   template ANY ANY vizury.com { rcode NXDOMAIN }
-  template ANY ANY vmmpxl.com { rcode NXDOMAIN }
   template ANY ANY voicefive.com { rcode NXDOMAIN }
   template ANY ANY voicevegetable.com { rcode NXDOMAIN }
   template ANY ANY voluum.com { rcode NXDOMAIN }
@@ -5313,6 +5343,7 @@
   template ANY ANY werbung.meteoxpress.com { rcode NXDOMAIN }
   template ANY ANY wetrack.it { rcode NXDOMAIN }
   template ANY ANY whaleads.com { rcode NXDOMAIN }
+  template ANY ANY whazugho.com { rcode NXDOMAIN }
   template ANY ANY whenu.com { rcode NXDOMAIN }
   template ANY ANY whereapps.com { rcode NXDOMAIN }
   template ANY ANY wheredoyoucomefrom.ovh { rcode NXDOMAIN }
@@ -5424,6 +5455,7 @@
   template ANY ANY yieldmanager.com { rcode NXDOMAIN }
   template ANY ANY yieldmanager.net { rcode NXDOMAIN }
   template ANY ANY yieldmo.com { rcode NXDOMAIN }
+  template ANY ANY yieldoptimizer.com { rcode NXDOMAIN }
   template ANY ANY yieldpass.com { rcode NXDOMAIN }
   template ANY ANY yieldtraffic.com { rcode NXDOMAIN }
   template ANY ANY yldbt.com { rcode NXDOMAIN }
@@ -5458,6 +5490,7 @@
   template ANY ANY zeus.developershed.com { rcode NXDOMAIN }
   template ANY ANY zeusclicks.com { rcode NXDOMAIN }
   template ANY ANY zintext.com { rcode NXDOMAIN }
+  template ANY ANY zion-telemetry.api.cnn.io { rcode NXDOMAIN }
   template ANY ANY ziyu.net { rcode NXDOMAIN }
   template ANY ANY zlp6s.pw { rcode NXDOMAIN }
   template ANY ANY zm232.com { rcode NXDOMAIN }
@@ -5468,7 +5501,7 @@
   template ANY ANY zqtk.net { rcode NXDOMAIN }
   template ANY ANY zucks.net { rcode NXDOMAIN }
   template ANY ANY zukxd6fkxqn.com { rcode NXDOMAIN }
-  template ANY ANY zumobi.comadjust.io { rcode NXDOMAIN }
+  template ANY ANY zumobi.com { rcode NXDOMAIN }
   template ANY ANY zy16eoat1w.com { rcode NXDOMAIN }
   template ANY ANY zzhc.vnet.cn { rcode NXDOMAIN }
 
