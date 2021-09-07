@@ -15,6 +15,10 @@ jobs:
       packages: write
 
     steps:
+      - name: Prepare variables
+        id: var
+        run: echo "::set-output name=date::$(date +'%Y%m%d')"
+
       - name: Checkout repository
         uses: actions/checkout@v2
 
@@ -33,3 +37,4 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
             ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:${{ steps.var.outputs.date }}
