@@ -3,7 +3,7 @@
 FROM debian:stable-slim AS build
 WORKDIR /
 
-RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates
+RUN apt-get -q update && apt-get install -qy --no-install-recommends curl ca-certificates
 RUN <<EOF
 #!/usr/bin/env bash
 
