@@ -27,6 +27,8 @@ while read -r line; do
   fi
 done < checking.txt
 
+wc -l lists.txt
+
 cat <<CORE > Corefile
 . {
   loop
