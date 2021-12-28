@@ -57,7 +57,7 @@ DNSStubListener=no
 
 Remember to restart systemd-resolved to take the setting in effect.
 
-Usage for the users to run just `docker`
+For developers to run just `docker`
 ------------------------------------------
 ### Build image
 ```bash
@@ -69,7 +69,7 @@ $ DOCKER_BUILDKIT=1 docker build -t coredns-zone-blocker .
 $ docker run -p53:53/tcp -p53:53/udp --restart unless-stopped coredns-zone-blocker
 ```
 
-Usage for the users to run `docker-compose`
+For developers to run `docker-compose`
 ------------------------------------------
 * Simple and easy to use
 * Use official coredns docker image for security and reliability
