@@ -59,21 +59,18 @@ Remember to restart systemd-resolved to take the setting in effect.
 
 For developers to run just `docker`
 ------------------------------------------
-### Build image
+### Build a image
 ```bash
 $ DOCKER_BUILDKIT=1 docker build -t coredns-zone-blocker .
 ```
 
-### Run server
+### Run the server
 ```bash
 $ docker run -p53:53/tcp -p53:53/udp --restart unless-stopped coredns-zone-blocker
 ```
 
 For developers to run `docker-compose`
 ------------------------------------------
-* Simple and easy to use
-* Use official coredns docker image for security and reliability
-
 ### Run the server
 
 #### Prepare Docker (for the first time only)
