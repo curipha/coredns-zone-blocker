@@ -14,7 +14,60 @@ Concepts
 
 Motivation
 ------------------------------------------
-* Provide ad blocking and tracing protection feature for mobile devices
+* Provide ad blocking and tracking protection feature for mobile devices
+
+Quick start
+------------------------------------------
+```bash
+$ docker run -d -p53:53/tcp -p53:53/udp --restart unless-stopped ghcr.io/curipha/coredns-zone-blocker:latest
+```
+
+Avoid conflicts with systemd-resolved
+------------------------------------------
+systemd-resolved provides DNS stub listener on port 53 by default.
+It will cause conflicts with this DNS server.
+
+It requires 2 steps to disable DNS stub listener.
+
+### 1. Update `/etc/resolv.conf`
+```bash
+$ sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
+```
+
+`/etc/resolv.conf` lists `127.0.0.53` as the only DNS server by default.
+It is systemd-resolved's DNS stub resolver and it have to be shutdown.
+
+systemd-resolved also maintains `/run/systemd/resolve/resolv.conf` and it contains all known upstream DNS servers.
+Thus it is good to create a symlink to this file.
+
+For more details, have a look at [the manual of systemd-resolved](https://www.freedesktop.org/software/systemd/man/systemd-resolved.service.html#/etc/resolv.conf).
+
+### 2. Stop DNS stub listener provided by systemd-resolved
+```bash
+$ sudo -e /etc/systemd/resolved.conf
+$ sudo systemctl restart systemd-resolved.service
+```
+
+Edit `/etc/systemd/resolved.conf` and add this line.
+[Manual](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSStubListener=) may help.
+
+```
+DNSStubListener=no
+```
+
+Remember to restart systemd-resolved to take the setting in effect.
+
+Usage for the users to run just `docker`
+------------------------------------------
+### Build image
+```bash
+$ DOCKER_BUILDKIT=1 docker build -t coredns-zone-blocker .
+```
+
+### Run server
+```bash
+$ docker run -p53:53/tcp -p53:53/udp --restart unless-stopped coredns-zone-blocker
+```
 
 Usage for the users to run `docker-compose`
 ------------------------------------------
@@ -58,53 +111,6 @@ I really appreciate the great efforts of the block list authors.
 ```bash
 $ while read -r l; do echo "template ANY ANY ${l} { rcode NXDOMAIN }"; done < adhosts.txt > hosts_for_Corefile.txt
 ```
-
-Usage for the users to run just `docker`
-------------------------------------------
-### Build image
-```bash
-$ DOCKER_BUILDKIT=1 docker build -t coredns-zone-blocker .
-```
-
-### Run server
-```bash
-$ docker run -p53:53/tcp -p53:53/udp --restart unless-stopped coredns-zone-blocker
-```
-
-Avoid conflicts with systemd-resolved
-------------------------------------------
-systemd-resolved provides DNS stub listener on port 53 by default.
-It will cause conflicts with this DNS server.
-
-It requires 2 steps to disable DNS stub listener.
-
-### 1. Update `/etc/resolv.conf`
-```bash
-$ sudo ln -sf /run/systemd/resolve/resolv.conf /etc/resolv.conf
-```
-
-`/etc/resolv.conf` lists `127.0.0.53` as the only DNS server by default.
-It is systemd-resolved's DNS stub resolver and it have to be shutdown.
-
-systemd-resolved also maintains `/run/systemd/resolve/resolv.conf` and it contains all known upstream DNS servers.
-Thus it is good to create a symlink to this file.
-
-For more details, have a look at [the manual of systemd-resolved](https://www.freedesktop.org/software/systemd/man/systemd-resolved.service.html#/etc/resolv.conf).
-
-### 2. Stop DNS stub listener provided by systemd-resolved
-```bash
-$ sudo -e /etc/systemd/resolved.conf
-$ sudo systemctl restart systemd-resolved.service
-```
-
-Edit `/etc/systemd/resolved.conf` and add this line.
-[Manual](https://www.freedesktop.org/software/systemd/man/resolved.conf.html#DNSStubListener=) may help.
-
-```
-DNSStubListener=no
-```
-
-Remember to restart systemd-resolved to take the setting in effect.
 
 License
 ------------------------------------------
