@@ -6,9 +6,9 @@ WORKDIR /
 RUN apt-get -q update && apt-get install -qy --no-install-recommends curl ca-certificates
 RUN <<EOF
 #!/usr/bin/env bash
-
-set -o nounset
 set -o errexit
+set -o nounset
+set -o pipefail
 
 curl -w "\n%{stderr}[%{http_code}](%{size_download}) %{url_effective}\n" -sSf \
   "https://280blocker.net/files/280blocker_domain_$(date +%Y%m).txt" \
