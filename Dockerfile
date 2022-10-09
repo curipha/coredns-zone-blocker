@@ -11,7 +11,6 @@ set -o nounset
 set -o pipefail
 
 curl -w "\n%{stderr}[%{http_code}](%{size_download}) %{url_effective}\n" -sSf \
-  "https://280blocker.net/files/280blocker_domain_$(date +%Y%m).txt" \
   'https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt' \
   'https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt' \
   'https://pgl.yoyo.org/adservers/serverlist.php?hostformat=nohtml&showintro=0&mimetype=plaintext' \
