@@ -18,7 +18,7 @@ jobs:
     steps:
       - name: Prepare variables
         id: var
-        run: echo "::set-output name=date::$(date +'%Y%m%d')"
+        run: echo "date=$(date +%Y%m%d)" >> $GITHUB_OUTPUT
 
       - name: Checkout repository
         uses: actions/checkout@v3
